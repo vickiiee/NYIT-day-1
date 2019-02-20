@@ -11,7 +11,7 @@ public class LatinSquare {
 	}
 
 	public static void main(String[] args) {
-		
+			//Testing all samples
 		  int[][] arr2D1 = { { 10, 30, 20, 0 }, 
 		  					{ 0, 20, 30, 10 }, 
 		  					{ 30, 0, 10, 20 }, 
