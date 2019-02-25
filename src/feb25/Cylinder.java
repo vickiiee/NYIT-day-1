@@ -39,7 +39,7 @@ public class Cylinder extends Circle{
 				+ "radius = "+ getRadius()+"\n"
 				+ "height = "+ getHeight()+"\n"
 				+ "base area = "+ super.getArea() + "\n"
-				+ "surface area = "+ getArea() + "\n" /////////////////////////////////////////////////////
+				+ "surface area = "+ getArea() + "\n" 
 				+ "volume = " + getVolume() + "\n";
 	}
 
