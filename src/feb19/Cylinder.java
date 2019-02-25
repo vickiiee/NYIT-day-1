@@ -34,7 +34,7 @@ public class Cylinder extends Circle{
 	}
 	
 	public String toString() {
-		return "Radius is "+ getRadius()+". Height is "+" getHeight()"+". Color is "+getColor()+". Base area is "+ getArea() + ". Volume is " + getVolume() ;
+		return "Radius is "+ getRadius()+". Height is "+ getHeight()+". Color is "+getColor()+". Base area is "+ getArea() + ". Volume is " + getVolume() ;
 	}
 
 	public double getVolume() {

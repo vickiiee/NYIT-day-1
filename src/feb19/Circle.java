@@ -37,7 +37,7 @@ public class Circle {
 	}
 	
 	public String toString() {
-		return "Radius is "+ getRadius()+". Height is "+" getHeight()"+". Color is "+getColor()+". Base area is "+ getArea() ;
+		return "";//"Radius is "+ getRadius()+". Height is "+ +". Color is "+getColor()+". Base area is "+ getArea() ;
 	}
 	public double getArea() {
 		return Math.PI*(getRadius()*getRadius());
