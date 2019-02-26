@@ -1,4 +1,7 @@
 package feb25;
+
+import java.io.PrintStream;
+
 //Vickie Wu
 //Feb 25
 
@@ -10,6 +13,7 @@ public class ProductionWorker extends Employee{
 	//day shift is 1
 	//night shift is 2
 	private double payRate;
+
 	
 
 	public ProductionWorker() {
@@ -56,10 +60,11 @@ public class ProductionWorker extends Employee{
 	}
 	
 	public String toString() {
+		String formattedString = String.format("%.02f", getPayRate());
 		return "Name: " + getName() + "\n"
 				+ "Employee Number: " + getEmployeeNumber() + "\n"
 				+ "Hire Date: " + getHireDate() + "\n"
 				+ "Shift: " + getShift() + "\n"
-				+ "Hourly Pay Rate: " + getPayRate();
+				+ "Hourly Pay Rate: $" + formattedString;
 	}
 }

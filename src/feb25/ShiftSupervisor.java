@@ -34,10 +34,12 @@ public class ShiftSupervisor extends Employee {
 	}
 	
 	public String toString() {
+		String sal = String.format("%.02f", getSalary());
+		String b = String.format("%.02f", getBonus());
 		 return "Name: " + getName() + "\n"
 				+ "Employee Number: " + getEmployeeNumber() + "\n"
 				+ "Hire Date: " + getHireDate() + "\n"
-				+ "Annual Salary: $" + getSalary() + "\n"
-				+ "Production bonus: $" + getBonus();
+				+ "Annual Salary: $" + sal + "\n"
+				+ "Production bonus: $" + b;
 	}
 }

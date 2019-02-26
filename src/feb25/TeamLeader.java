@@ -34,12 +34,14 @@ public class TeamLeader extends ProductionWorker{
 	}
 	
 	public String toString() {
+		String pay = String.format("%.02f", getPayRate());
+		String b = String.format("%.02f", getMonthlyBonus());
 		return "Name: " + getName() + "\n"
 				+ "Employee Number: " + getEmployeeNumber() + "\n"
 				+ "Hire Date: " + getHireDate() + "\n"
 				+ "Shift: " + getShift() + "\n"
-				+ "Hourly Pay Rate: $" + getPayRate() + "\n"
-				+ "Monthly Bonus: $" + getMonthlyBonus() + "\n"
+				+ "Hourly Pay Rate: $" + pay + "\n"
+				+ "Monthly Bonus: $" + b + "\n"
 				+ "Required Training Hours: " + getRequiredTrainingHrs() +"\n"
 				+ "Training hours attended: " + getAtHrs();
 	}
