@@ -1,6 +1,5 @@
 package feb25;
 
-import java.io.PrintStream;
 
 //Vickie Wu
 //Feb 25
