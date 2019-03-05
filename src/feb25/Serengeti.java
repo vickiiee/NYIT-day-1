@@ -1,7 +1,7 @@
-package mar4;
+package feb25;
 
 //Vickie Wu
-//March 4 2019
+//Feb 25 2019
 public class Serengeti {
 
 	private int[] board;
