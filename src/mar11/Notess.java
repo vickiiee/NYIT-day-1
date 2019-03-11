@@ -1,5 +1,8 @@
 package mar11;
 
+import mar4.Account;
+import mar4.SavingsAccount;
+
 public class Notess {
 
 	public Notess() {
@@ -20,6 +23,16 @@ public class Notess {
 		 * 		no body, just header and then a semicolon ;
 		 */
 		
+		/*
+		 * Account object = accs[i];
+			if (object instanceof SavingsAccount) { //CheckingAccount
+				SavingsAccount employee = (SavingsAccount) object;
+			    //employee.setLimit(12);
+			}
+			else {
+			    System.err.println("Object is not an Employee: we can not call getSalary()!");
+			}
+		 */
 	}
 	
 
