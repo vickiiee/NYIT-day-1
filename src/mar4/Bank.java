@@ -28,9 +28,10 @@ public class Bank {
 		
 		System.out.println(a.toString());
 		
-		accs[numAccs] = (CheckingAccount) a;
+		 accs[numAccs] = (CheckingAccount)a;
 		accs[numAccs].deposit(666);
 		System.out.println(accs[numAccs].getAccountNumber());
+		System.out.println(a.toString());
 		accNum++;
 		
 	}
@@ -58,7 +59,16 @@ public class Bank {
 
 	public void deposit(int accNum, int deposit) {
 		for(int i = 0; i < accs.length; i++) {
-			int a = accs[i].getAccountNumber();
+			//int a = accs[i].getAccountNumber();
+			
+			Account object = accs[i];
+			if (object instanceof SavingsAccount) { //CheckingAccount
+				SavingsAccount employee = (SavingsAccount) object;
+			    //employee.setLimit(12);
+			}
+			else {
+			    System.err.println("Object is not an Employee: we can not call getSalary()!");
+			}
 			if(accs[i].getAccountNumber() == accNum) {
 				accs[i].deposit(deposit);
 			}
