@@ -1,23 +1,24 @@
 package mar4;
 
-public class SavingsAccount extends Account{
+//Vickie Wu
+//March 11
+
+public class SavingsAccount extends Account {
 
 	private double interest;
 	private double bal;
-	
+
 	public SavingsAccount(int accNum) {
 		super(accNum);
-		
+
 	}
-	
+
 	public void addInterest() {
-		bal = getBalance()+getBalance()*interest;
+		deposit(getBalance() * interest);
 	}
-	
+
 	public void setInterest(double interest) {
-		this.interest =  interest;
+		this.interest = interest;
 	}
-	
-	
 
 }

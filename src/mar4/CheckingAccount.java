@@ -1,10 +1,13 @@
 package mar4;
 
-public class CheckingAccount extends Account{
+//Vickie Wu
+//March 11
+
+public class CheckingAccount extends Account {
 
 	private double overDraftLim;
 	private int a;
-	
+
 	public CheckingAccount(int accNum) {
 		super(accNum);
 		this.a = accNum;
@@ -15,14 +18,8 @@ public class CheckingAccount extends Account{
 		overDraftLim = lim;
 	}
 
-	
-	/*
-	 * (non-Javadoc)
-	 * @see mar4.Account#getAccountNumber()
-	 * THIS METHOD SHOULDNT BE HERE, WTF
-	 */
-	public int getAccountNumber() {
-		return a;
+	public double getLimit() {
+		return overDraftLim;
 	}
-	
+
 }

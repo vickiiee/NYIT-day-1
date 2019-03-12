@@ -1,5 +1,8 @@
 package mar4;
 
+//Vickie Wu
+//March 11
+
 /**
  * A class for bank accounts.
  * 
@@ -9,7 +12,7 @@ package mar4;
  */
 
 public class Account {
-	
+
 	private double bal; // The current balance
 	private int accnum; // The account number
 
