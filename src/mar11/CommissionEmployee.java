@@ -7,11 +7,19 @@ public class CommissionEmployee extends Employee{
 	
 	private int sale;
 	private double percent;
+	//fixed
+	private String firstName;
+	private String lastName;
+	private String socialSecurityNumber;
+	
 
 	public CommissionEmployee(String first, String last, String ssn, int sale, double percent) {
 		super(first, last, ssn);
 		this.sale = sale;
 		this.percent = percent;
+		firstName = first;
+		lastName = last;
+		socialSecurityNumber = ssn;
 		// TODO Auto-generated constructor stub
 	}
 

@@ -7,11 +7,19 @@ public class HourlyEmployee extends Employee{
 
 	private double wage;
 	private double hoursWorked;
+	//fixed
+	private String firstName;
+	private String lastName;
+	private String socialSecurityNumber;
 	
 	public HourlyEmployee(String first, String last, String ssn, double wage, int hoursWorked) {
 		super(first, last, ssn);
 		this.wage = wage;
 		this.hoursWorked = hoursWorked;
+		
+		firstName = first;
+		lastName = last;
+		socialSecurityNumber = ssn;
 		// TODO Auto-generated constructor stub
 	}
 
