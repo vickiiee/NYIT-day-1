@@ -46,6 +46,14 @@ public class Notes {
 		/*
 		 * Stack Trace: shows all the methods that were executing when the exception was caught
 		 */
+		
+		/*
+		 * THROWS exceptions in in method name line --> for custom exceptions 
+		 * 
+		 * Ex: NegativeDeposit, NegativeStarting Balance, Negative Withdraw classes example of custom exceptions
+		 * 	BankAccount3: example of method throwing exceptions by calling new exceptions
+		 */
 	}
+	
 
 }
