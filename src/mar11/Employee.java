@@ -8,26 +8,21 @@ package mar11;
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class Employee
-{
-    String firstName;
-    String lastName;
-    String socialSecurityNumber;
-    
-    public Employee(String first, String last, String ssn)
-    {
-        firstName=first;
-        lastName=last;
-        socialSecurityNumber=ssn;
-    }
-    
-    public abstract double earnings();
-    
-    public String toString()
-    {
-        return("\n"+firstName+" "+lastName+
-                "\nsocial security number: "+ socialSecurityNumber);
-    }
-}
+public abstract class Employee {
+	private String firstName;
+	private String lastName;
+	private String socialSecurityNumber;
 
+	public Employee(String first, String last, String ssn) {
+		firstName = first;
+		lastName = last;
+		socialSecurityNumber = ssn;
+	}
+
+	public abstract double earnings();
+
+	public String toString() {
+		return ("\n" + firstName + " " + lastName + "\nsocial security number: " + socialSecurityNumber);
+	}
+}
 
