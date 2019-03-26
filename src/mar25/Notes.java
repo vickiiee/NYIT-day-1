@@ -48,7 +48,7 @@ public class Notes {
 		 */
 		
 		/*
-		 * THROWS exceptions in in method name line --> for custom exceptions 
+		 * THROWS exceptions in in method name line --> for custom exceptions https://www.geeksforgeeks.org/throw-throws-java/
 		 * 
 		 * Ex: NegativeDeposit, NegativeStarting Balance, Negative Withdraw classes example of custom exceptions
 		 * 	BankAccount3: example of method throwing exceptions by calling new exceptions
